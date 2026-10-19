@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/baozoidb?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: 9586
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
